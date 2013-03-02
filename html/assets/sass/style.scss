@@ -33,6 +33,34 @@ html{
 						margin: 0;
 						padding: 0;
 					}
+					ul.blocks{
+						margin: 0;
+						padding: 0;
+						list-style: none;
+						margin: 32px 0 0 0;
+						li{
+							&:last-child{
+								clear: both;
+							}
+						}
+						li.item{
+							margin: 0;
+							padding: 0;
+							display: block;
+							width: 196px;
+							height: 100px;
+							background-color: purple;
+							float:left;
+							margin-right: 32px;
+							margin-bottom: 32px;
+							&.no-margin{
+								margin-right: 0;
+							}
+							span{
+								display: block;
+							}
+						}
+					}
 				}
 			}
 			footer{
