@@ -1,56 +1,71 @@
-html body div#page {
-  background-color: blue;
-  width: 960px;
-  margin: 0 auto; }
-  html body div#page header {
-    width: 960px;
-    height: 300px;
-    background-color: pink; }
-  html body div#page div#content {
-    width: 960px; }
-    html body div#page div#content aside#sidebar-left {
-      float: left;
-      width: 288px;
-      background-color: aqua; }
-      html body div#page div#content aside#sidebar-left div.widget {
-        width: 268px;
-        background-color: gray;
-        padding: 10px; }
-        html body div#page div#content aside#sidebar-left div.widget h3 {
-          margin: 0;
-          padding: 0; }
-    html body div#page div#content div#content {
-      float: left;
-      width: 652px;
-      margin: 10px; }
-      html body div#page div#content div#content h1 {
-        margin: 0;
-        padding: 0; }
-      html body div#page div#content div#content ul.blocks {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        margin: 32px 0 0 0; }
-        html body div#page div#content div#content ul.blocks li:last-child {
-          clear: both; }
-        html body div#page div#content div#content ul.blocks li.item {
-          margin: 0;
-          padding: 0;
-          display: block;
-          width: 196px;
-          height: 100px;
-          background-color: purple;
+html body {
+  background-color: black; }
+  html body div#page {
+    background-image: url("../img/bg.jpg");
+    background-position-x: center;
+    min-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 25px;
+    padding-top: 30px; }
+    html body div#page div#innerpage {
+      width: 900px;
+      margin: 0 auto;
+      border: 1px solid #e9e9e9;
+      background-color: white;
+      padding: 30px; }
+      html body div#page div#innerpage header {
+        width: 900px;
+        height: 300px;
+        border-bottom: 1px dotted gray;
+        margin-bottom: 50px; }
+      html body div#page div#innerpage div#content {
+        width: 900px; }
+        html body div#page div#innerpage div#content aside#sidebar-left {
           float: left;
-          margin-right: 32px;
-          margin-bottom: 32px; }
-          html body div#page div#content div#content ul.blocks li.item.no-margin {
-            margin-right: 0; }
-          html body div#page div#content div#content ul.blocks li.item span {
-            display: block; }
-  html body div#page footer {
-    width: 960px;
+          width: 259px;
+          padding: 0 20px; }
+          html body div#page div#innerpage div#content aside#sidebar-left div.widget {
+            width: 240px;
+            background-color: gray;
+            padding: 10px; }
+            html body div#page div#innerpage div#content aside#sidebar-left div.widget h3 {
+              margin: 0;
+              padding: 0; }
+        html body div#page div#innerpage div#content div#content {
+          float: left;
+          width: 560px;
+          padding: 0 20px;
+          border-left: 1px dotted gray; }
+          html body div#page div#innerpage div#content div#content h1 {
+            margin: 0;
+            padding: 0; }
+          html body div#page div#innerpage div#content div#content ul.blocks {
+            margin: 0;
+            padding: 0;
+            list-style: none; }
+            html body div#page div#innerpage div#content div#content ul.blocks li:last-child {
+              clear: both; }
+            html body div#page div#innerpage div#content div#content ul.blocks li.item {
+              margin: 0;
+              padding: 0;
+              display: block;
+              width: 260px;
+              height: 200px;
+              background-color: purple;
+              float: left;
+              margin-bottom: 32px; }
+              html body div#page div#innerpage div#content div#content ul.blocks li.item:nth-child(odd) {
+                margin-right: 20px; }
+              html body div#page div#innerpage div#content div#content ul.blocks li.item:nth-child(even) {
+                margin-left: 20px; }
+              html body div#page div#innerpage div#content div#content ul.blocks li.item span {
+                display: block; }
+  html body footer {
+    width: 100%;
+    min-width: 960px;
     height: 300px;
-    background-color: red; }
+    margin: 0 auto; }
 
 div.clearfix {
   clear: both; }
