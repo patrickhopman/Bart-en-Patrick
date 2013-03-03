@@ -18,7 +18,7 @@ html{
 				header{
 					width: 900px;
 					height: 300px;
-					border-bottom: 1px dotted gray;
+					border-bottom: 1px dotted #c2c2c2;
 					margin-bottom: 50px;
 				}
 				div#content{
@@ -29,7 +29,6 @@ html{
 						padding: 0 20px;
 						div.widget{
 							width: 240px;
-							background-color: gray;
 							padding: 10px;
 							h3{
 								margin: 0;
@@ -41,7 +40,7 @@ html{
 						float: left;
 						width: 560px;
 						padding: 0 20px;
-						border-left: 1px dotted gray;
+						border-left: 1px dotted #c2c2c2;
 						h1{
 							margin: 0;
 							padding: 0;
@@ -50,6 +49,7 @@ html{
 							margin: 0;
 							padding: 0;
 							list-style: none;
+							margin-bottom: -40px;
 							li{
 								&:last-child{
 									clear: both;
@@ -61,14 +61,17 @@ html{
 								display: block;
 								width: 260px;
 								height: 200px;
-								background-color: purple;
+								background-color: #c2c2c2;
+								color: white;
 								float:left;
-								margin-bottom: 32px;
+								margin-bottom: 40px;
 								&:nth-child(odd){
 									margin-right: 20px;
 								}
 								&:nth-child(even){
 									margin-left: 20px;
+								}
+								&:nth-last-of-type(-n+2){
 								}
 								span{
 									display: block;
