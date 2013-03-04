@@ -32,11 +32,25 @@ html{
 						position: relative;
 						div#innerslider{
 							height: 100%;
-							background-color: #9f908b;
+							ul{
+								margin: 0;
+								padding: 0;
+								list-style: none;
+								height: 100%;
+								position: relative;
+								li{
+									display: none;
+									position: absolute;
+									left: 0;
+									top: 0;
+									right: 0;
+									bottom: 0;
+								}
+							}
 						}
-						a#button-left{
+						> a{
+							cursor: pointer;
 							position: absolute;
-							left: -25px;
 							top: 125px;
 							width: 50px;
 							height: 46px;
@@ -46,21 +60,15 @@ html{
 							color: #313131;
 							text-decoration: none;
 							font-size: 37px;
+							font-family: sans-serif;
 							text-align: center;
 						}
-						a#button-right{
-							position: absolute;
-							right: -25px;
-							top: 125px;
-							width: 50px;
-							height: 46px;
-							padding: 2px 0;
-							background-color: white;
-							@include border-radius(25px, 25px);
-							color: #313131;
-							text-decoration: none;
-							font-size: 37px;
-							text-align: center;						}
+						a.backward{
+							left: -25px;
+						}
+						a.forward{
+							right: -25px;						
+						}
 					}
 					nav{
 						height: 30px;
