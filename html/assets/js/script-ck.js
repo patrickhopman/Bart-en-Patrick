@@ -1,1 +1,1 @@
-jQuery(document).ready(function(){});
+jQuery(document).ready(function(){var e=$("#slidetabs").tabs("ul.slider > li",{effect:"fade",fadeOutSpeed:"slow",rotate:!0}).slideshow({clickable:!1,autoplay:!0,interval:2e3})});
