@@ -1,3 +1,5 @@
+@import "compass/css3/border-radius";
+
 html{
 	body{
 		background-color: black;
@@ -17,9 +19,53 @@ html{
 				padding: 30px;
 				header{
 					width: 900px;
-					height: 300px;
 					border-bottom: 1px dotted #c2c2c2;
 					margin-bottom: 50px;
+					div#logo{
+						height: 115px;
+						width: 100%;
+					}
+					div#slider{
+						height: 300px;
+						border: 1px solid #eaeaea;
+						padding: 3px;
+						position: relative;
+						div#innerslider{
+							height: 100%;
+							background-color: #9f908b;
+						}
+						a#button-left{
+							position: absolute;
+							left: -25px;
+							top: 125px;
+							width: 50px;
+							height: 46px;
+							padding: 2px 0;
+							background-color: white;
+							@include border-radius(25px, 25px);
+							color: #313131;
+							text-decoration: none;
+							font-size: 37px;
+							text-align: center;
+						}
+						a#button-right{
+							position: absolute;
+							right: -25px;
+							top: 125px;
+							width: 50px;
+							height: 46px;
+							padding: 2px 0;
+							background-color: white;
+							@include border-radius(25px, 25px);
+							color: #313131;
+							text-decoration: none;
+							font-size: 37px;
+							text-align: center;						}
+					}
+					nav{
+						height: 30px;
+						margin: 60px 0;
+					}
 				}
 				div#content{
 					width: 900px;
