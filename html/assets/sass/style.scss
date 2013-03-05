@@ -1,3 +1,25 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/helveticaneueltprobdcn.eot');
+	src: url('../fonts/helveticaneueltprobdcn.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/helveticaneueltprobdcn.woff') format('woff'),
+		 url('../fonts/helveticaneueltprobdcn.ttf') format('truetype'),
+		 url('../fonts/helveticaneueltprobdcn.svg#helveticaneueltprobdcn') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+		font-family: 'Helvetica Neue';
+		src: url('../fonts/helveticaneueltproultlt.eot');
+		src: url('../fonts/helveticaneueltproultlt.eot?#iefix') format('embedded-opentype'),
+				 url('../fonts/helveticaneueltproultlt.woff') format('woff'),
+				 url('../fonts/helveticaneueltproultlt.ttf') format('truetype'),
+				 url('../fonts/helveticaneueltproultlt.svg#helveticaneueltproultlt') format('svg');
+		font-weight: normal;
+		font-style: normal;
+}
+
 @import "compass/css3";
 
 html{
@@ -22,8 +44,13 @@ html{
 					border-bottom: 1px dotted #c2c2c2;
 					margin-bottom: 50px;
 					div#logo{
-						height: 115px;
+						height: 105px;
 						width: 100%;
+						font-family: 'Helvetica Neue';
+						font-size: 60px;
+						color: #9d9d9d;
+						text-align: center;
+						padding-top: 10px;
 					}
 					div#slider{
 						height: 300px;
@@ -73,6 +100,36 @@ html{
 					nav{
 						height: 30px;
 						margin: 60px 0;
+						ul{
+							list-style-type: none;
+							padding: 0;
+							margin: 0 auto;
+							display: block;
+							li{
+								padding: 0 10px;
+								margin: 0;	
+								height: 21px;
+								font-family: 'Helvetica Neue';
+								font-weight: bold;
+								text-transform: uppercase;
+								font-size: 14px;
+								float:left;
+								border-right: 1px dotted #c2c2c2;
+								a{
+									text-decoration: none;
+									color: #9a9a9a;
+									span:first-child{
+										color: #cb333f;
+									}
+								}
+								&.active{
+									text-align: right;
+									a{
+										color: #cb333f;
+									}
+								}
+							}
+						}
 					}
 				}
 				div#content{
@@ -83,10 +140,61 @@ html{
 						padding: 0 20px;
 						div.widget{
 							width: 240px;
-							padding: 10px;
+							padding: 0 10px;
 							h3{
 								margin: 0;
 								padding: 0;
+								font-family: 'Helvetica Neue';
+								font-weight: bold;
+								text-transform: uppercase;
+								font-size: 15px;
+							}
+							ul{
+								list-style-type: none;
+								padding: 0;
+								margin: 0;
+								li{
+									padding: 0;
+									margin: 0;	
+									border-bottom: 1px dotted #c2c2c2;
+									height: 21px;
+									font-family: 'Helvetica Neue';
+									font-weight: bold;
+									text-transform: uppercase;
+									font-size: 14px;
+									padding-top: 9px;
+									a{
+										padding-left: 20px;
+										text-decoration: none;
+										background: url('../img/submenu-arrow.png') left top no-repeat;
+										color: #c9c9c9;
+										@include transition-property(color, background-position);
+										@include transition-duration(0.25s);
+										@include transition-timing-function(ease-in);
+									}
+									&.active{
+										text-align: right;
+										border-bottom: 1px dotted #cb333f;
+										a{
+											color: #cb333f;
+											background-position: left bottom;
+										}
+									}
+									&:hover{
+										text-align: right;
+										border-bottom: 1px dotted #cb333f;
+										@include transition-property(text-align, border-bottom);
+										@include transition-duration(0.25s);
+										@include transition-timing-function(ease-in);
+										a{
+											color: #cb333f;
+											background-position: left bottom;
+											@include transition-property(color, background-position);
+											@include transition-duration(0.25s);
+											@include transition-timing-function(ease-in);
+										}
+									}
+								}
 							}
 						}
 					}
@@ -112,20 +220,39 @@ html{
 							li.item{
 								margin: 0;
 								padding: 0;
-								display: block;
+								display: table-cell;
+								vertical-align: middle;
 								width: 260px;
 								height: 200px;
-								background-color: #c2c2c2;
-								color: white;
 								float:left;
 								margin-bottom: 40px;
+								font-family: 'Helvetica Neue';
+								letter-spacing: 5px;
+								text-transform: uppercase;
+								font-size: 13px;
+								text-align: center;
+								a{
+									display: block;
+									color: white;
+									text-decoration: none;
+									padding: 92px 0px;
+									background-color: rgba( #cc333f, 0.8 );
+									@include transition-property(opacity);
+									@include transition-duration(0.25s);
+									@include transition-timing-function(ease-in);
+									@include box-shadow(rgba(#000, 0.3) 0 0 32px 0 inset);
+									&:hover{
+										opacity: 0;
+										@include transition(opacity);
+										@include transition-duration(0.25s);
+										@include transition-timing-function(ease-in);
+									}
+								}
 								&:nth-child(odd){
 									margin-right: 20px;
 								}
 								&:nth-child(even){
 									margin-left: 20px;
-								}
-								&:nth-last-of-type(-n+2){
 								}
 								span{
 									display: block;
