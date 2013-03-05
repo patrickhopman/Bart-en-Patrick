@@ -236,13 +236,14 @@ html{
 									color: white;
 									text-decoration: none;
 									padding: 92px 0px;
+									opacity: 0;
 									background-color: rgba( #cc333f, 0.8 );
 									@include transition-property(opacity);
 									@include transition-duration(0.25s);
 									@include transition-timing-function(ease-in);
 									@include box-shadow(rgba(#000, 0.3) 0 0 32px 0 inset);
 									&:hover{
-										opacity: 0;
+										opacity: 1;
 										@include transition(opacity);
 										@include transition-duration(0.25s);
 										@include transition-timing-function(ease-in);
