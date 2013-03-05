@@ -157,41 +157,52 @@ html{
 									padding: 0;
 									margin: 0;	
 									border-bottom: 1px dotted #c2c2c2;
-									height: 21px;
+									height: 30px;
 									font-family: 'Helvetica Neue';
 									font-weight: bold;
 									text-transform: uppercase;
 									font-size: 14px;
-									padding-top: 9px;
+									display: block;
+									position: relative;
+									@include transition-property(border-bottom-color);
+									@include transition-duration(0.25s);
+									@include transition-timing-function(ease-in);
 									a{
-										padding-left: 20px;
+										display: block;
+										padding: 9px 0 0 0;
 										text-decoration: none;
-										background: url('../img/submenu-arrow.png') left top no-repeat;
+										
 										color: #c9c9c9;
-										@include transition-property(color, background-position);
+										@include transition-property(color);
 										@include transition-duration(0.25s);
 										@include transition-timing-function(ease-in);
-									}
-									&.active{
-										text-align: right;
-										border-bottom: 1px dotted #cb333f;
-										a{
-											color: #cb333f;
-											background-position: left bottom;
-										}
-									}
-									&:hover{
-										text-align: right;
-										border-bottom: 1px dotted #cb333f;
-										@include transition-property(text-align, border-bottom);
-										@include transition-duration(0.25s);
-										@include transition-timing-function(ease-in);
-										a{
-											color: #cb333f;
-											background-position: left bottom;
-											@include transition-property(color, background-position);
+										span{
+											display: inline;
+											width: auto;
+											padding-left: 20px;
+											background: url('../img/submenu-arrow.png') left top no-repeat;
+											@include transition-property(background-position);
 											@include transition-duration(0.25s);
 											@include transition-timing-function(ease-in);
+										}
+									}
+									&:hover, &.active{
+										border-bottom-color: #cb333f;
+										@include transition-property(border-bottom-color);
+										@include transition-duration(0.25s);
+										@include transition-timing-function(ease-in);
+										a{
+											color: #cb333f;
+											@include transition-property(color);
+											@include transition-duration(0.25s);
+											@include transition-timing-function(ease-in);
+											span{
+												//float:right;
+												background-position: left bottom;
+												@include transition-property(background-position);
+												@include transition-duration(0.25s);
+												@include transition-timing-function(ease-in);
+											}
 										}
 									}
 								}
