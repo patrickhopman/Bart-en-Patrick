@@ -210,6 +210,7 @@ html{
 						}
 					}
 					div#content{
+						overflow: hidden;
 						float: left;
 						width: 560px;
 						padding: 0 20px;
@@ -219,6 +220,7 @@ html{
 							padding: 0;
 						}
 						ul.blocks{
+							background: url('../img/bg-content.png') bottom center;
 							margin: 0;
 							padding: 0;
 							list-style: none;
