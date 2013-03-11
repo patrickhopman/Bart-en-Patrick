@@ -20,7 +20,17 @@
 		font-style: normal;
 }
 
+$default-text-shadow-color: rgba(black, 0.5);
+$default-text-shadow-blur: 1px;
+$default-text-shadow-v-offset: 1px;
+$default-text-shadow-h-offset: 1px;
+
 @import "compass/css3";
+
+::selection{
+	background-color: #cb333f;
+	color: white;
+}
 
 html{
 	body{
@@ -145,10 +155,13 @@ html{
 				}
 				div#content{
 					width: 900px;
+					font-family: "Helvetica Neue";
+					font-size: 12px;
 					aside#sidebar-left{
 						float: left;
 						width: 259px;
 						padding: 0 20px;
+						padding-top: 8px;
 						div.widget{
 							width: 240px;
 							padding: 0 10px;
@@ -176,7 +189,7 @@ html{
 									display: block;
 									position: relative;
 									@include transition-property(border-bottom-color);
-									@include transition-duration(0.25s);
+									@include transition-duration(0.2s);
 									@include transition-timing-function(ease-in);
 									a{
 										display: block;
@@ -185,7 +198,7 @@ html{
 										
 										color: #c9c9c9;
 										@include transition-property(color);
-										@include transition-duration(0.25s);
+										@include transition-duration(0.2s);
 										@include transition-timing-function(ease-in);
 										span{
 											display: inline;
@@ -193,25 +206,25 @@ html{
 											padding-left: 20px;
 											background: url('../img/submenu-arrow.png') left top no-repeat;
 											@include transition-property(background-position);
-											@include transition-duration(0.25s);
+											@include transition-duration(0.2s);
 											@include transition-timing-function(ease-in);
 										}
 									}
 									&:hover, &.active{
 										border-bottom-color: #cb333f;
 										@include transition-property(border-bottom-color);
-										@include transition-duration(0.25s);
+										@include transition-duration(0.2s);
 										@include transition-timing-function(ease-in);
 										a{
 											color: #cb333f;
 											@include transition-property(color);
-											@include transition-duration(0.25s);
+											@include transition-duration(0.2s);
 											@include transition-timing-function(ease-in);
 											span{
 												//float:right;
 												background-position: left bottom;
 												@include transition-property(background-position);
-												@include transition-duration(0.25s);
+												@include transition-duration(0.2s);
 												@include transition-timing-function(ease-in);
 											}
 										}
@@ -221,11 +234,12 @@ html{
 						}
 					}
 					div#content{
-						overflow: hidden;
 						float: left;
 						width: 560px;
 						padding: 0 20px;
 						border-left: 1px dotted #c2c2c2;
+						padding-top: 8px;
+						overflow: hidden;
 						header#articleheader{
 							position: relative;
 							overflow: hidden;
@@ -237,12 +251,53 @@ html{
 							}
 							h1{
 								position: absolute;
-								left: 0;
-								top: 0;
+								left: 15px;
+								top: 15px;
 								margin: 0;
 								padding: 0;
 								color: #FFF;
 								font-family: 'Helvetica Neue';
+								@include single-text-shadow;
+								font-size: 40px;
+							}
+						}
+						section{
+							overflow: hidden;
+							margin-top: 1em;
+							margin-bottom: 1em;
+							a{
+								display: block;
+								height: 50px;
+								width: 48%;
+								float: left;
+								background-color: blue;
+								text-decoration: none;
+								@include background-image(linear-gradient(#e9e9e9, #cdcdcd));
+								@include border-radius(4px, 4px);
+								@include box-shadow( rgba( black, 0.1 ) 0 0 16px 0px inset );
+								text-align: center;
+								line-height: 50px;
+								font-weight: bold;
+								color: #000;
+								border: 1px solid #bababa;
+								font-size: 12px;
+								
+								@include text-shadow(1px 1px 0px rgba( #FFF, 0.9 ));
+								&:last-child{
+									float: right;
+								}
+							}
+						}
+						article{
+							font-size: 13px;
+							line-height: 2em;
+							h2{
+								font-size: 13px;
+								margin: 0;
+								padding: 0;
+							}
+							p{
+								margin-top: 0;
 							}
 						}
 						ul.blocks{
@@ -270,6 +325,7 @@ html{
 								text-transform: uppercase;
 								font-size: 13px;
 								text-align: center;
+								position: relative;
 								@include box-shadow(rgba(#000, 0.3) 0 0 32px 0 inset);
 								a{
 									display: block;
@@ -282,11 +338,24 @@ html{
 									@include transition-duration(0.25s);
 									@include transition-timing-function(ease-in);
 									@include box-shadow(rgba(#000, 0.3) 0 0 32px 0 inset);
-									&:hover{
+								}
+								&:hover{
+									a{
 										opacity: 1;
 										@include transition(opacity);
 										@include transition-duration(0.25s);
 										@include transition-timing-function(ease-in);
+									}
+								}
+								&.new{
+									span.newtag{
+										position: absolute;
+										display: block;
+										background-image: url('../img/new.png');
+										height: 90px;
+										width: 88px;
+										top: -7px;
+										left: -8px;
 									}
 								}
 								&:nth-child(odd){

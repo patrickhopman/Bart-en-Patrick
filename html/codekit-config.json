@@ -11,15 +11,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
     },
-    "\/assets\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/index.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -28,17 +19,6 @@
       "inputAbbreviatedPath" : "\/index.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/js\/libs\/jquery.tools.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/js\/libs\/jquery.tools.min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/assets\/js\/libs\/jquery.tools.min-ck.js",
-      "fileType" : 64
     },
     "\/assets\/js\/libs\/modernizr.custom.61113.js" : {
       "ignoreWasSetByUser" : 0,
@@ -51,25 +31,36 @@
       "outputAbbreviatedPath" : "\/assets\/js\/libs\/modernizr.custom.61113-ck.js",
       "fileType" : 64
     },
-    "\/assets\/img\/testimg.png" : {
+    "\/assets\/js\/libs\/jquery.tools.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/testimg.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/testimg.png",
-      "initialSize" : 90892,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/assets\/js\/libs\/jquery.tools.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/assets\/js\/libs\/jquery.tools.min-ck.js",
+      "fileType" : 64
     },
-    "\/config.rb" : {
+    "\/assets\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/assets\/img\/Untitled-1.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/config.rb",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 32768
+      "inputAbbreviatedPath" : "\/assets\/img\/Untitled-1.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/Untitled-1.png",
+      "initialSize" : 7744,
+      "fileType" : 8192
     },
     "\/assets\/img\/bg.jpg" : {
       "ignoreWasSetByUser" : 0,
@@ -80,6 +71,37 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/assets\/img\/bg.jpg",
       "initialSize" : 2548,
+      "fileType" : 4096
+    },
+    "\/config.rb" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/config.rb",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 32768
+    },
+    "\/assets\/img\/bg-content.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/bg-content.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/bg-content.png",
+      "initialSize" : 1886,
+      "fileType" : 8192
+    },
+    "\/assets\/img\/single-header_test.jpg" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/single-header_test.jpg",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/single-header_test.jpg",
+      "initialSize" : 36429,
       "fileType" : 4096
     },
     "\/assets\/img\/submenu-arrow.png" : {
@@ -93,18 +115,6 @@
       "initialSize" : 1442,
       "fileType" : 8192
     },
-    "\/assets\/sass\/normalize.sass" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/sass\/normalize.sass",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/assets\/css\/normalize.css",
-      "fileType" : 2,
-      "debugStyle" : 0
-    },
     "\/single.html" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -113,17 +123,6 @@
       "inputAbbreviatedPath" : "\/single.html",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
-    },
-    "\/assets\/img\/single-header_test.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/single-header_test.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/single-header_test.jpg",
-      "initialSize" : 36429,
-      "fileType" : 4096
     },
     "\/assets\/sass\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -137,15 +136,26 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/assets\/img\/bg-content.png" : {
+    "\/assets\/img\/testimg.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/assets\/img\/bg-content.png",
+      "inputAbbreviatedPath" : "\/assets\/img\/testimg.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/assets\/img\/bg-content.png",
-      "initialSize" : 1886,
+      "outputAbbreviatedPath" : "\/assets\/img\/testimg.png",
+      "initialSize" : 90892,
+      "fileType" : 8192
+    },
+    "\/assets\/img\/new.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/img\/new.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/assets\/img\/new.png",
+      "initialSize" : 7744,
       "fileType" : 8192
     },
     "\/assets\/js\/script.js" : {
@@ -158,6 +168,18 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/assets\/js\/script-ck.js",
       "fileType" : 64
+    },
+    "\/assets\/sass\/normalize.sass" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/assets\/sass\/normalize.sass",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/assets\/css\/normalize.css",
+      "fileType" : 2,
+      "debugStyle" : 0
     },
     "\/assets\/js\/libs\/jquery-1.9.1.min.js" : {
       "ignoreWasSetByUser" : 0,

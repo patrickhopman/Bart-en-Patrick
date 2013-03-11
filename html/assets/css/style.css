@@ -12,10 +12,15 @@
   font-weight: normal;
   font-style: normal; }
 
-/* line 26, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
+::selection {
+  background-color: #cb333f;
+  color: white; }
+
+/* line 36, ../sass/style.scss */
 html body {
   background-color: black; }
-  /* line 28, ../sass/style.scss */
+  /* line 38, ../sass/style.scss */
   html body div#page {
     background-image: url("../img/bg.jpg");
     background-position-x: center;
@@ -24,19 +29,19 @@ html body {
     margin: 0 auto;
     padding-bottom: 25px;
     padding-top: 30px; }
-    /* line 36, ../sass/style.scss */
+    /* line 46, ../sass/style.scss */
     html body div#page div#innerpage {
       width: 900px;
       margin: 0 auto;
       border: 1px solid #e9e9e9;
       background-color: white;
       padding: 30px; }
-      /* line 42, ../sass/style.scss */
+      /* line 52, ../sass/style.scss */
       html body div#page div#innerpage > header {
         width: 900px;
         border-bottom: 1px dotted #c2c2c2;
         margin-bottom: 50px; }
-        /* line 46, ../sass/style.scss */
+        /* line 56, ../sass/style.scss */
         html body div#page div#innerpage > header div#logo {
           height: 105px;
           width: 100%;
@@ -44,27 +49,27 @@ html body {
           font-size: 60px;
           text-align: center;
           padding-top: 10px; }
-          /* line 53, ../sass/style.scss */
+          /* line 63, ../sass/style.scss */
           html body div#page div#innerpage > header div#logo a {
             text-decoration: none;
             color: #9d9d9d; }
-        /* line 58, ../sass/style.scss */
+        /* line 68, ../sass/style.scss */
         html body div#page div#innerpage > header div#slider {
           height: 300px;
           border: 1px solid #eaeaea;
           padding: 3px;
           position: relative; }
-          /* line 63, ../sass/style.scss */
+          /* line 73, ../sass/style.scss */
           html body div#page div#innerpage > header div#slider div#innerslider {
             height: 100%; }
-            /* line 65, ../sass/style.scss */
+            /* line 75, ../sass/style.scss */
             html body div#page div#innerpage > header div#slider div#innerslider ul {
               margin: 0;
               padding: 0;
               list-style: none;
               height: 100%;
               position: relative; }
-              /* line 71, ../sass/style.scss */
+              /* line 81, ../sass/style.scss */
               html body div#page div#innerpage > header div#slider div#innerslider ul li {
                 display: none;
                 position: absolute;
@@ -72,7 +77,7 @@ html body {
                 top: 0;
                 right: 0;
                 bottom: 0; }
-          /* line 81, ../sass/style.scss */
+          /* line 91, ../sass/style.scss */
           html body div#page div#innerpage > header div#slider > a {
             cursor: pointer;
             position: absolute;
@@ -89,24 +94,24 @@ html body {
             font-size: 37px;
             font-family: sans-serif;
             text-align: center; }
-          /* line 96, ../sass/style.scss */
+          /* line 106, ../sass/style.scss */
           html body div#page div#innerpage > header div#slider a.backward {
             left: -25px; }
-          /* line 99, ../sass/style.scss */
+          /* line 109, ../sass/style.scss */
           html body div#page div#innerpage > header div#slider a.forward {
             right: -25px; }
-        /* line 103, ../sass/style.scss */
+        /* line 113, ../sass/style.scss */
         html body div#page div#innerpage > header nav {
           height: 30px;
           margin: 60px 0; }
-          /* line 106, ../sass/style.scss */
+          /* line 116, ../sass/style.scss */
           html body div#page div#innerpage > header nav ul {
             list-style-type: none;
             padding: 0;
             margin: 0 auto;
             display: block;
             text-align: center; }
-            /* line 112, ../sass/style.scss */
+            /* line 122, ../sass/style.scss */
             html body div#page div#innerpage > header nav ul li {
               padding: 0 20px;
               margin: 0;
@@ -117,39 +122,42 @@ html body {
               display: inline-block;
               border-right: 1px dotted #c2c2c2;
               line-height: 35px; }
-              /* line 122, ../sass/style.scss */
+              /* line 132, ../sass/style.scss */
               html body div#page div#innerpage > header nav ul li a {
                 text-decoration: none;
                 color: #9a9a9a; }
-                /* line 125, ../sass/style.scss */
+                /* line 135, ../sass/style.scss */
                 html body div#page div#innerpage > header nav ul li a span:first-child {
                   color: #cb333f; }
-              /* line 129, ../sass/style.scss */
+              /* line 139, ../sass/style.scss */
               html body div#page div#innerpage > header nav ul li.active {
                 text-align: right; }
-                /* line 131, ../sass/style.scss */
+                /* line 141, ../sass/style.scss */
                 html body div#page div#innerpage > header nav ul li.active a {
                   color: #cb333f; }
-              /* line 135, ../sass/style.scss */
+              /* line 145, ../sass/style.scss */
               html body div#page div#innerpage > header nav ul li:last-child {
                 border: none;
                 font-size: 14px; }
-              /* line 139, ../sass/style.scss */
+              /* line 149, ../sass/style.scss */
               html body div#page div#innerpage > header nav ul li:first-child {
                 font-size: 14px; }
-      /* line 146, ../sass/style.scss */
+      /* line 156, ../sass/style.scss */
       html body div#page div#innerpage div#content {
-        width: 900px; }
-        /* line 148, ../sass/style.scss */
+        width: 900px;
+        font-family: "Helvetica Neue";
+        font-size: 12px; }
+        /* line 160, ../sass/style.scss */
         html body div#page div#innerpage div#content aside#sidebar-left {
           float: left;
           width: 259px;
-          padding: 0 20px; }
-          /* line 152, ../sass/style.scss */
+          padding: 0 20px;
+          padding-top: 8px; }
+          /* line 165, ../sass/style.scss */
           html body div#page div#innerpage div#content aside#sidebar-left div.widget {
             width: 240px;
             padding: 0 10px; }
-            /* line 155, ../sass/style.scss */
+            /* line 168, ../sass/style.scss */
             html body div#page div#innerpage div#content aside#sidebar-left div.widget h3 {
               margin: 0;
               padding: 0;
@@ -157,12 +165,12 @@ html body {
               font-weight: bold;
               text-transform: uppercase;
               font-size: 15px; }
-            /* line 163, ../sass/style.scss */
+            /* line 176, ../sass/style.scss */
             html body div#page div#innerpage div#content aside#sidebar-left div.widget ul {
               list-style-type: none;
               padding: 0;
               margin: 0; }
-              /* line 167, ../sass/style.scss */
+              /* line 180, ../sass/style.scss */
               html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li {
                 padding: 0;
                 margin: 0;
@@ -178,15 +186,15 @@ html body {
                 -moz-transition-property: border-bottom-color;
                 -o-transition-property: border-bottom-color;
                 transition-property: border-bottom-color;
-                -webkit-transition-duration: 0.25s;
-                -moz-transition-duration: 0.25s;
-                -o-transition-duration: 0.25s;
-                transition-duration: 0.25s;
+                -webkit-transition-duration: 0.2s;
+                -moz-transition-duration: 0.2s;
+                -o-transition-duration: 0.2s;
+                transition-duration: 0.2s;
                 -webkit-transition-timing-function: ease-in;
                 -moz-transition-timing-function: ease-in;
                 -o-transition-timing-function: ease-in;
                 transition-timing-function: ease-in; }
-                /* line 181, ../sass/style.scss */
+                /* line 194, ../sass/style.scss */
                 html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li a {
                   display: block;
                   padding: 9px 0 0 0;
@@ -196,15 +204,15 @@ html body {
                   -moz-transition-property: color;
                   -o-transition-property: color;
                   transition-property: color;
-                  -webkit-transition-duration: 0.25s;
-                  -moz-transition-duration: 0.25s;
-                  -o-transition-duration: 0.25s;
-                  transition-duration: 0.25s;
+                  -webkit-transition-duration: 0.2s;
+                  -moz-transition-duration: 0.2s;
+                  -o-transition-duration: 0.2s;
+                  transition-duration: 0.2s;
                   -webkit-transition-timing-function: ease-in;
                   -moz-transition-timing-function: ease-in;
                   -o-transition-timing-function: ease-in;
                   transition-timing-function: ease-in; }
-                  /* line 190, ../sass/style.scss */
+                  /* line 203, ../sass/style.scss */
                   html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li a span {
                     display: inline;
                     width: auto;
@@ -214,67 +222,68 @@ html body {
                     -moz-transition-property: background-position;
                     -o-transition-property: background-position;
                     transition-property: background-position;
-                    -webkit-transition-duration: 0.25s;
-                    -moz-transition-duration: 0.25s;
-                    -o-transition-duration: 0.25s;
-                    transition-duration: 0.25s;
+                    -webkit-transition-duration: 0.2s;
+                    -moz-transition-duration: 0.2s;
+                    -o-transition-duration: 0.2s;
+                    transition-duration: 0.2s;
                     -webkit-transition-timing-function: ease-in;
                     -moz-transition-timing-function: ease-in;
                     -o-transition-timing-function: ease-in;
                     transition-timing-function: ease-in; }
-                /* line 200, ../sass/style.scss */
+                /* line 213, ../sass/style.scss */
                 html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li:hover, html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li.active {
                   border-bottom-color: #cb333f;
                   -webkit-transition-property: border-bottom-color;
                   -moz-transition-property: border-bottom-color;
                   -o-transition-property: border-bottom-color;
                   transition-property: border-bottom-color;
-                  -webkit-transition-duration: 0.25s;
-                  -moz-transition-duration: 0.25s;
-                  -o-transition-duration: 0.25s;
-                  transition-duration: 0.25s;
+                  -webkit-transition-duration: 0.2s;
+                  -moz-transition-duration: 0.2s;
+                  -o-transition-duration: 0.2s;
+                  transition-duration: 0.2s;
                   -webkit-transition-timing-function: ease-in;
                   -moz-transition-timing-function: ease-in;
                   -o-transition-timing-function: ease-in;
                   transition-timing-function: ease-in; }
-                  /* line 205, ../sass/style.scss */
+                  /* line 218, ../sass/style.scss */
                   html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li:hover a, html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li.active a {
                     color: #cb333f;
                     -webkit-transition-property: color;
                     -moz-transition-property: color;
                     -o-transition-property: color;
                     transition-property: color;
-                    -webkit-transition-duration: 0.25s;
-                    -moz-transition-duration: 0.25s;
-                    -o-transition-duration: 0.25s;
-                    transition-duration: 0.25s;
+                    -webkit-transition-duration: 0.2s;
+                    -moz-transition-duration: 0.2s;
+                    -o-transition-duration: 0.2s;
+                    transition-duration: 0.2s;
                     -webkit-transition-timing-function: ease-in;
                     -moz-transition-timing-function: ease-in;
                     -o-transition-timing-function: ease-in;
                     transition-timing-function: ease-in; }
-                    /* line 210, ../sass/style.scss */
+                    /* line 223, ../sass/style.scss */
                     html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li:hover a span, html body div#page div#innerpage div#content aside#sidebar-left div.widget ul li.active a span {
                       background-position: left bottom;
                       -webkit-transition-property: background-position;
                       -moz-transition-property: background-position;
                       -o-transition-property: background-position;
                       transition-property: background-position;
-                      -webkit-transition-duration: 0.25s;
-                      -moz-transition-duration: 0.25s;
-                      -o-transition-duration: 0.25s;
-                      transition-duration: 0.25s;
+                      -webkit-transition-duration: 0.2s;
+                      -moz-transition-duration: 0.2s;
+                      -o-transition-duration: 0.2s;
+                      transition-duration: 0.2s;
                       -webkit-transition-timing-function: ease-in;
                       -moz-transition-timing-function: ease-in;
                       -o-transition-timing-function: ease-in;
                       transition-timing-function: ease-in; }
-        /* line 223, ../sass/style.scss */
+        /* line 236, ../sass/style.scss */
         html body div#page div#innerpage div#content div#content {
-          overflow: hidden;
           float: left;
           width: 560px;
           padding: 0 20px;
-          border-left: 1px dotted #c2c2c2; }
-          /* line 229, ../sass/style.scss */
+          border-left: 1px dotted #c2c2c2;
+          padding-top: 8px;
+          overflow: hidden; }
+          /* line 243, ../sass/style.scss */
           html body div#page div#innerpage div#content div#content header#articleheader {
             position: relative;
             overflow: hidden;
@@ -282,30 +291,78 @@ html body {
             -webkit-border-radius: 4px 4px;
             -moz-border-radius: 4px / 4px;
             border-radius: 4px / 4px; }
-            /* line 234, ../sass/style.scss */
+            /* line 248, ../sass/style.scss */
             html body div#page div#innerpage div#content div#content header#articleheader img {
               float: left;
               border: 2px solid white; }
-            /* line 238, ../sass/style.scss */
+            /* line 252, ../sass/style.scss */
             html body div#page div#innerpage div#content div#content header#articleheader h1 {
               position: absolute;
-              left: 0;
-              top: 0;
+              left: 15px;
+              top: 15px;
               margin: 0;
               padding: 0;
               color: #FFF;
-              font-family: 'Helvetica Neue'; }
-          /* line 248, ../sass/style.scss */
+              font-family: 'Helvetica Neue';
+              text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+              font-size: 40px; }
+          /* line 264, ../sass/style.scss */
+          html body div#page div#innerpage div#content div#content section {
+            overflow: hidden;
+            margin-top: 1em;
+            margin-bottom: 1em; }
+            /* line 268, ../sass/style.scss */
+            html body div#page div#innerpage div#content div#content section a {
+              display: block;
+              height: 50px;
+              width: 48%;
+              float: left;
+              background-color: blue;
+              text-decoration: none;
+              background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e9e9e9), color-stop(100%, #cdcdcd));
+              background-image: -webkit-linear-gradient(#e9e9e9, #cdcdcd);
+              background-image: -moz-linear-gradient(#e9e9e9, #cdcdcd);
+              background-image: -o-linear-gradient(#e9e9e9, #cdcdcd);
+              background-image: linear-gradient(#e9e9e9, #cdcdcd);
+              -webkit-border-radius: 4px 4px;
+              -moz-border-radius: 4px / 4px;
+              border-radius: 4px / 4px;
+              -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 0 16px 0px inset;
+              -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 0 16px 0px inset;
+              box-shadow: rgba(0, 0, 0, 0.1) 0 0 16px 0px inset;
+              text-align: center;
+              line-height: 50px;
+              font-weight: bold;
+              color: #000;
+              border: 1px solid #bababa;
+              font-size: 12px;
+              text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.9); }
+              /* line 286, ../sass/style.scss */
+              html body div#page div#innerpage div#content div#content section a:last-child {
+                float: right; }
+          /* line 291, ../sass/style.scss */
+          html body div#page div#innerpage div#content div#content article {
+            font-size: 13px;
+            line-height: 2em; }
+            /* line 294, ../sass/style.scss */
+            html body div#page div#innerpage div#content div#content article h2 {
+              font-size: 13px;
+              margin: 0;
+              padding: 0; }
+            /* line 299, ../sass/style.scss */
+            html body div#page div#innerpage div#content div#content article p {
+              margin-top: 0; }
+          /* line 303, ../sass/style.scss */
           html body div#page div#innerpage div#content div#content ul.blocks {
             background: url("../img/bg-content.png") bottom center;
             margin: 0;
             padding: 0;
             list-style: none;
             margin-bottom: -40px; }
-            /* line 255, ../sass/style.scss */
+            /* line 310, ../sass/style.scss */
             html body div#page div#innerpage div#content div#content ul.blocks li:last-child {
               clear: both; }
-            /* line 259, ../sass/style.scss */
+            /* line 314, ../sass/style.scss */
             html body div#page div#innerpage div#content div#content ul.blocks li.item {
               margin: 0;
               padding: 0;
@@ -320,10 +377,11 @@ html body {
               text-transform: uppercase;
               font-size: 13px;
               text-align: center;
+              position: relative;
               -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 32px 0 inset;
               -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 32px 0 inset;
               box-shadow: rgba(0, 0, 0, 0.3) 0 0 32px 0 inset; }
-              /* line 274, ../sass/style.scss */
+              /* line 330, ../sass/style.scss */
               html body div#page div#innerpage div#content div#content ul.blocks li.item a {
                 display: block;
                 color: white;
@@ -346,31 +404,40 @@ html body {
                 -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 32px 0 inset;
                 -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 32px 0 inset;
                 box-shadow: rgba(0, 0, 0, 0.3) 0 0 32px 0 inset; }
-                /* line 285, ../sass/style.scss */
-                html body div#page div#innerpage div#content div#content ul.blocks li.item a:hover {
-                  opacity: 1;
-                  -webkit-transition: opacity;
-                  -moz-transition: opacity;
-                  -o-transition: opacity;
-                  transition: opacity;
-                  -webkit-transition-duration: 0.25s;
-                  -moz-transition-duration: 0.25s;
-                  -o-transition-duration: 0.25s;
-                  transition-duration: 0.25s;
-                  -webkit-transition-timing-function: ease-in;
-                  -moz-transition-timing-function: ease-in;
-                  -o-transition-timing-function: ease-in;
-                  transition-timing-function: ease-in; }
-              /* line 292, ../sass/style.scss */
+              /* line 343, ../sass/style.scss */
+              html body div#page div#innerpage div#content div#content ul.blocks li.item:hover a {
+                opacity: 1;
+                -webkit-transition: opacity;
+                -moz-transition: opacity;
+                -o-transition: opacity;
+                transition: opacity;
+                -webkit-transition-duration: 0.25s;
+                -moz-transition-duration: 0.25s;
+                -o-transition-duration: 0.25s;
+                transition-duration: 0.25s;
+                -webkit-transition-timing-function: ease-in;
+                -moz-transition-timing-function: ease-in;
+                -o-transition-timing-function: ease-in;
+                transition-timing-function: ease-in; }
+              /* line 351, ../sass/style.scss */
+              html body div#page div#innerpage div#content div#content ul.blocks li.item.new span.newtag {
+                position: absolute;
+                display: block;
+                background-image: url("../img/new.png");
+                height: 90px;
+                width: 88px;
+                top: -7px;
+                left: -8px; }
+              /* line 361, ../sass/style.scss */
               html body div#page div#innerpage div#content div#content ul.blocks li.item:nth-child(odd) {
                 margin-right: 20px; }
-              /* line 295, ../sass/style.scss */
+              /* line 364, ../sass/style.scss */
               html body div#page div#innerpage div#content div#content ul.blocks li.item:nth-child(even) {
                 margin-left: 20px; }
-              /* line 298, ../sass/style.scss */
+              /* line 367, ../sass/style.scss */
               html body div#page div#innerpage div#content div#content ul.blocks li.item span {
                 display: block; }
-  /* line 307, ../sass/style.scss */
+  /* line 376, ../sass/style.scss */
   html body footer {
     width: 960px;
     padding: 30px 0 30px 0;
@@ -378,12 +445,12 @@ html body {
     color: #FFF;
     overflow: hidden;
     font-size: 12px; }
-    /* line 314, ../sass/style.scss */
+    /* line 383, ../sass/style.scss */
     html body footer div.widget {
       width: 25%;
       float: left; }
 
-/* line 322, ../sass/style.scss */
+/* line 391, ../sass/style.scss */
 div.clearfix {
   clear: both; }
 
@@ -394,7 +461,7 @@ div.clearfix {
 /**
  * Correct `block` display not defined in IE 8/9.
  */
-/* line 347, ../sass/style.scss */
+/* line 416, ../sass/style.scss */
 article,
 aside,
 details,
@@ -412,7 +479,7 @@ summary {
 /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
-/* line 357, ../sass/style.scss */
+/* line 426, ../sass/style.scss */
 audio,
 canvas,
 video {
@@ -422,7 +489,7 @@ video {
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
-/* line 366, ../sass/style.scss */
+/* line 435, ../sass/style.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -430,7 +497,7 @@ audio:not([controls]) {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 375, ../sass/style.scss */
+/* line 444, ../sass/style.scss */
 [hidden] {
   display: none; }
 
@@ -442,7 +509,7 @@ audio:not([controls]) {
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-/* line 389, ../sass/style.scss */
+/* line 458, ../sass/style.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -454,7 +521,7 @@ html {
 /**
  * Remove default margin.
  */
-/* line 399, ../sass/style.scss */
+/* line 468, ../sass/style.scss */
 body {
   margin: 0; }
 
@@ -464,14 +531,14 @@ body {
 /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
-/* line 411, ../sass/style.scss */
+/* line 480, ../sass/style.scss */
 a:focus {
   outline: thin dotted; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
-/* line 420, ../sass/style.scss */
+/* line 489, ../sass/style.scss */
 a:active,
 a:hover {
   outline: 0; }
@@ -483,7 +550,7 @@ a:hover {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 433, ../sass/style.scss */
+/* line 502, ../sass/style.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -491,14 +558,14 @@ h1 {
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
-/* line 442, ../sass/style.scss */
+/* line 511, ../sass/style.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
 /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 451, ../sass/style.scss */
+/* line 520, ../sass/style.scss */
 b,
 strong {
   font-weight: bold; }
@@ -506,14 +573,14 @@ strong {
 /**
  * Address styling not present in Safari 5 and Chrome.
  */
-/* line 459, ../sass/style.scss */
+/* line 528, ../sass/style.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Address differences between Firefox and other browsers.
  */
-/* line 467, ../sass/style.scss */
+/* line 536, ../sass/style.scss */
 hr {
   -moz-box-sizing: content-box;
   box-sizing: content-box;
@@ -522,7 +589,7 @@ hr {
 /**
  * Address styling not present in IE 8/9.
  */
-/* line 477, ../sass/style.scss */
+/* line 546, ../sass/style.scss */
 mark {
   background: #ff0;
   color: #000; }
@@ -530,7 +597,7 @@ mark {
 /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
-/* line 489, ../sass/style.scss */
+/* line 558, ../sass/style.scss */
 code,
 kbd,
 pre,
@@ -541,28 +608,28 @@ samp {
 /**
  * Improve readability of pre-formatted text in all browsers.
  */
-/* line 498, ../sass/style.scss */
+/* line 567, ../sass/style.scss */
 pre {
   white-space: pre-wrap; }
 
 /**
  * Set consistent quote types.
  */
-/* line 506, ../sass/style.scss */
+/* line 575, ../sass/style.scss */
 q {
   quotes: "\201C" "\201D" "\2018" "\2019"; }
 
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-/* line 514, ../sass/style.scss */
+/* line 583, ../sass/style.scss */
 small {
   font-size: 80%; }
 
 /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
-/* line 523, ../sass/style.scss */
+/* line 592, ../sass/style.scss */
 sub,
 sup {
   font-size: 75%;
@@ -570,11 +637,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 530, ../sass/style.scss */
+/* line 599, ../sass/style.scss */
 sup {
   top: -0.5em; }
 
-/* line 534, ../sass/style.scss */
+/* line 603, ../sass/style.scss */
 sub {
   bottom: -0.25em; }
 
@@ -584,14 +651,14 @@ sub {
 /**
  * Remove border when inside `a` element in IE 8/9.
  */
-/* line 546, ../sass/style.scss */
+/* line 615, ../sass/style.scss */
 img {
   border: 0; }
 
 /**
  * Correct overflow displayed oddly in IE 9.
  */
-/* line 554, ../sass/style.scss */
+/* line 623, ../sass/style.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -601,7 +668,7 @@ svg:not(:root) {
 /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
-/* line 566, ../sass/style.scss */
+/* line 635, ../sass/style.scss */
 figure {
   margin: 0; }
 
@@ -611,7 +678,7 @@ figure {
 /**
  * Define consistent border, margin, and padding.
  */
-/* line 578, ../sass/style.scss */
+/* line 647, ../sass/style.scss */
 fieldset {
   border: 1px solid silver;
   margin: 0 2px;
@@ -621,7 +688,7 @@ fieldset {
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
-/* line 589, ../sass/style.scss */
+/* line 658, ../sass/style.scss */
 legend {
   border: 0;
   /* 1 */
@@ -633,7 +700,7 @@ legend {
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
-/* line 603, ../sass/style.scss */
+/* line 672, ../sass/style.scss */
 button,
 input,
 select,
@@ -649,7 +716,7 @@ textarea {
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-/* line 615, ../sass/style.scss */
+/* line 684, ../sass/style.scss */
 button,
 input {
   line-height: normal; }
@@ -660,7 +727,7 @@ input {
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
-/* line 627, ../sass/style.scss */
+/* line 696, ../sass/style.scss */
 button,
 select {
   text-transform: none; }
@@ -672,7 +739,7 @@ select {
  * 3. Improve usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-/* line 642, ../sass/style.scss */
+/* line 711, ../sass/style.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -685,7 +752,7 @@ input[type="submit"] {
 /**
  * Re-set default cursor for disabled elements.
  */
-/* line 652, ../sass/style.scss */
+/* line 721, ../sass/style.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
@@ -694,7 +761,7 @@ html input[disabled] {
  * 1. Address box sizing set to `content-box` in IE 8/9.
  * 2. Remove excess padding in IE 8/9.
  */
-/* line 662, ../sass/style.scss */
+/* line 731, ../sass/style.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -707,7 +774,7 @@ input[type="radio"] {
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
-/* line 673, ../sass/style.scss */
+/* line 742, ../sass/style.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -720,7 +787,7 @@ input[type="search"] {
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-/* line 686, ../sass/style.scss */
+/* line 755, ../sass/style.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -728,7 +795,7 @@ input[type="search"]::-webkit-search-decoration {
 /**
  * Remove inner padding and border in Firefox 4+.
  */
-/* line 695, ../sass/style.scss */
+/* line 764, ../sass/style.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -738,7 +805,7 @@ input::-moz-focus-inner {
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
-/* line 705, ../sass/style.scss */
+/* line 774, ../sass/style.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -751,7 +818,7 @@ textarea {
 /**
  * Remove most spacing between table cells.
  */
-/* line 718, ../sass/style.scss */
+/* line 787, ../sass/style.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
